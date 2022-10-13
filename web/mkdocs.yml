@@ -1,0 +1,14 @@
+site_name: My Docs
+theme:
+  name: material
+  features:
+   - search.suggest
+   - search.highlight
+   - content.tabs.link 
+
+nav:
+  - Introduction: "index.md"
+  - Tutorial:
+    - Tutorial Subsection: "pages/tutorial/tutorial_subsection.md"
+  - About: "pages/About.md"
+  - FAQ: "pages/faq.md"
